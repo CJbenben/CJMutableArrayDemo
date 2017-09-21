@@ -14,6 +14,7 @@
 		044CAB0B1F7355B3004EC202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CAB091F7355B3004EC202 /* LaunchScreen.storyboard */; };
 		044CAB0E1F7355B3004EC202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CAB0D1F7355B3004EC202 /* main.m */; };
 		044CAB191F735CA4004EC202 /* CJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CAB181F735CA4004EC202 /* CJPerson.m */; };
+		04B3B7E01F7401810051EFC5 /* CJObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B7DF1F7401810051EFC5 /* CJObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		044CAB0D1F7355B3004EC202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		044CAB171F735CA4004EC202 /* CJPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJPerson.h; sourceTree = "<group>"; };
 		044CAB181F735CA4004EC202 /* CJPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJPerson.m; sourceTree = "<group>"; };
+		04B3B7DE1F7401810051EFC5 /* CJObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJObj.h; sourceTree = "<group>"; };
+		04B3B7DF1F7401810051EFC5 /* CJObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				044CAB021F7355B3004EC202 /* ViewController.m */,
 				044CAB171F735CA4004EC202 /* CJPerson.h */,
 				044CAB181F735CA4004EC202 /* CJPerson.m */,
+				04B3B7DE1F7401810051EFC5 /* CJObj.h */,
+				04B3B7DF1F7401810051EFC5 /* CJObj.m */,
 				044CAB041F7355B3004EC202 /* Main.storyboard */,
 				044CAB071F7355B3004EC202 /* Assets.xcassets */,
 				044CAB091F7355B3004EC202 /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044CAB031F7355B3004EC202 /* ViewController.m in Sources */,
+				04B3B7E01F7401810051EFC5 /* CJObj.m in Sources */,
 				044CAB191F735CA4004EC202 /* CJPerson.m in Sources */,
 				044CAB0E1F7355B3004EC202 /* main.m in Sources */,
 				044CAB001F7355B3004EC202 /* AppDelegate.m in Sources */,

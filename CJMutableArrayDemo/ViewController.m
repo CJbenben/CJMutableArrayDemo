@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CJPerson.h"
+#import "CJObj.h"
 
 @interface ViewController ()
 
@@ -67,14 +68,61 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self testCash];
-    
+    //[self testCash];
     [self testStrongAndCopy];
     
     [self testUserCopyWithAry];
     
     [self test01];
     [self test02];
+    
+    
+    [self testDeepCopy];
+    
+    
+    [self copyConstruct];
+}
+
+// 拷贝构造
+- (void)copyConstruct {
+    CJObj *obj = [[CJObj alloc] init];
+    obj.name = @"zhangsan";
+    obj.icon = @"icon";
+    
+    NSMutableArray *arr = [NSMutableArray array];
+    NSMutableArray *copyAry = [NSMutableArray array];
+    [arr addObject:obj];
+    
+    [copyAry addObject:[arr[0] copy]];
+    //[copyAry addObject:[arr[0] mutableCopy]];
+
+    
+    CJObj *obj2 = arr[0];
+    obj2.name = @"lisi";
+    obj2.icon = @"obj2_icon";
+    
+    NSLog(@"arr.name = %@, arr.icon = %@", ((CJObj *)arr[0]).name, ((CJObj *)arr[0]).icon);
+    NSLog(@"copyArr.name = %@, copyArr.icon = %@", ((CJObj *)[copyAry objectAtIndex:0]).name, ((CJObj *)[copyAry objectAtIndex:0]).icon);
+    
+    /* 输出结果：
+         arr.name = lisi, arr.icon = obj2_icon
+         copyArr.name = zhangsan, copyArr.icon = icon
+     */
+     
+}
+
+// 深拷贝
+- (void)testDeepCopy {
+    NSString *str = @"abcdefg";
+    NSString *cStr = [str copy];
+    NSMutableString *mStr = [str mutableCopy];
+    [mStr appendString:@"!!"];
+    NSLog(@"\n str = %@ = %p,\n cStr = %@ = %p,\n mStr = %@ = %p", str, str, cStr, cStr, mStr, mStr);
+    /* 输出结果：
+     str = abcdefg = 0x10a9b5150,
+     cStr = abcdefg = 0x10a9b5150,
+     mStr = abcdefg!! = 0x6040002455e0
+     */
 }
 
 // 为什么 NSArray 需要使用 copy
