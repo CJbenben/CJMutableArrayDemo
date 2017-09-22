@@ -1,6 +1,4 @@
-#copy修饰NSArray strong修饰NSMutableArray
-
-一个关于 copy 和 strong 使用的一个demo
+copy修饰NSArray strong修饰NSMutableArray（一个关于 copy 和 strong 使用的一个demo）
 
 [简书地址](http://www.jianshu.com/p/2008e585c1a0)
 
