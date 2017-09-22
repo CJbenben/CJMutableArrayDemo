@@ -76,11 +76,10 @@
     [self test01];
     [self test02];
     
-    
     [self testDeepCopy];
     
-    
     [self copyConstruct];
+    
 }
 
 // 拷贝构造

@@ -14,6 +14,7 @@
 		044CAB0B1F7355B3004EC202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CAB091F7355B3004EC202 /* LaunchScreen.storyboard */; };
 		044CAB0E1F7355B3004EC202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CAB0D1F7355B3004EC202 /* main.m */; };
 		044CAB191F735CA4004EC202 /* CJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CAB181F735CA4004EC202 /* CJPerson.m */; };
+		04A4F3701F74A76500C4E0ED /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4F36F1F74A76500C4E0ED /* SecondViewController.m */; };
 		04B3B7E01F7401810051EFC5 /* CJObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B7DF1F7401810051EFC5 /* CJObj.m */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		044CAB0D1F7355B3004EC202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		044CAB171F735CA4004EC202 /* CJPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJPerson.h; sourceTree = "<group>"; };
 		044CAB181F735CA4004EC202 /* CJPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJPerson.m; sourceTree = "<group>"; };
+		04A4F36E1F74A76500C4E0ED /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04A4F36F1F74A76500C4E0ED /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		04B3B7DE1F7401810051EFC5 /* CJObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJObj.h; sourceTree = "<group>"; };
 		04B3B7DF1F7401810051EFC5 /* CJObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +71,8 @@
 				044CAAFF1F7355B3004EC202 /* AppDelegate.m */,
 				044CAB011F7355B3004EC202 /* ViewController.h */,
 				044CAB021F7355B3004EC202 /* ViewController.m */,
+				04A4F36E1F74A76500C4E0ED /* SecondViewController.h */,
+				04A4F36F1F74A76500C4E0ED /* SecondViewController.m */,
 				044CAB171F735CA4004EC202 /* CJPerson.h */,
 				044CAB181F735CA4004EC202 /* CJPerson.m */,
 				04B3B7DE1F7401810051EFC5 /* CJObj.h */,
@@ -152,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A4F3701F74A76500C4E0ED /* SecondViewController.m in Sources */,
 				044CAB031F7355B3004EC202 /* ViewController.m in Sources */,
 				04B3B7E01F7401810051EFC5 /* CJObj.m in Sources */,
 				044CAB191F735CA4004EC202 /* CJPerson.m in Sources */,
